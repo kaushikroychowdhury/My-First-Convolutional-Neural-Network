@@ -107,4 +107,4 @@ plt.title('Training and Validation Loss')
 print(plt.show())
 
 test_loss, test_acc = model.evaluate(test_data_gen)
-print(test_loss,"    ,     ", test_acc)
+print(test_loss,"    ,     ", test_acc*100)
